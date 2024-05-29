@@ -16,7 +16,7 @@
           <span>Student</span>
         </a>
 
-        <a class="nav-link collapsed" href="/admin/student">
+        <a class="nav-link collapsed" href="/admin/courses">
           <i class="bi bi-user"></i>
           <span>Courses</span>
         </a>
