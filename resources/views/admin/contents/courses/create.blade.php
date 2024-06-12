@@ -28,7 +28,12 @@
 
                 <div class="mb-2">
                     <label for="category" class="form-label">Category</label>
-                    <input type="text" name="category" id="category" class="form-control">
+                    <select name="major" id="major" class="form-select">
+                        <option value="">Pilih Category</option>
+                        <option value="Historical">Historical</option>
+                        <option value="Probabilitas">Probabilitas</option>
+                        <option value="Laravel">Laravel</option>
+                    </select>
                 </div>
 
                 <div class="mb-2">
