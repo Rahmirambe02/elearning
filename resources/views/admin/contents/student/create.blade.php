@@ -14,6 +14,8 @@
   <section class="section">
     <div class="card">
         <div class="card-body">
+            @if (Auth::user()->role == 'admin')
+            
             <form action="/admin/student/store" method="post" class="mt-3">
                 @csrf
                 <div class="mb-2">
